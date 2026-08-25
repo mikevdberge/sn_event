@@ -9,9 +9,9 @@
         <script><![CDATA[// wait for 10 seconds and show in logs we processed the event
 var seconds = parseInt(10, 10) * 1000;
 var start = parseInt(new Date().getTime()) + seconds;
-while(start>parseInt(new Date().getTime())){
+//while(start>parseInt(new Date().getTime())){
 // do nothing
-}
+//}
 gs.info("Received a POC event with low priority and sleept for 10 seconds event batch#: "+ event.parm2);]]></script>
         <synchronous>false</synchronous>
         <sys_class_name>sysevent_script_action</sys_class_name>
@@ -20,7 +20,7 @@ gs.info("Received a POC event with low priority and sleept for 10 seconds event 
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>289e274383f2c3507dcc1630ceaad3e5</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>poc_event_with_low_prio</sys_name>
         <sys_overrides/>
         <sys_package display_value="sn_poc" source="x_1062667_sn_poc">0aabe34b83b2c3507dcc1630ceaad353</sys_package>
@@ -28,6 +28,6 @@ gs.info("Received a POC event with low priority and sleept for 10 seconds event 
         <sys_scope display_value="sn_poc">0aabe34b83b2c3507dcc1630ceaad353</sys_scope>
         <sys_update_name>sysevent_script_action_289e274383f2c3507dcc1630ceaad3e5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-24 08:15:49</sys_updated_on>
+        <sys_updated_on>2026-08-24 08:24:15</sys_updated_on>
     </sysevent_script_action>
 </record_update>
